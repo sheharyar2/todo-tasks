@@ -1,0 +1,61 @@
+.top_container{
+    /*background: linear-gradient(94deg, #D4145A  0%, #FBB03B 100%);*/
+    background: linear-gradient(180deg,  rgb(30, 50, 67) 11.8%,rgb(16, 29, 41) 83.8%);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.heading_container{
+    flex-grow: 1;
+    flex-basis: 200;
+    margin-left: 10px;
+}
+.input_container{
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.todo_search,.todo_add{
+    padding: 10px;
+    background-color:#efefe2;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    font-family: sans-serif;
+    width: 300px;
+
+}
+.todo_add{
+    flex-grow: 1;
+    flex-basis: 200;
+}
+.show_tasks_button,.add_tasks_button{
+    background-color: #e1711b; /* Vibrant red background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Top and bottom padding, left and right padding */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    border-radius: 25px; /* Slightly rounded corners */
+    cursor: pointer; /* Change mouse cursor to pointer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for press effect */
+    margin-left: 3px;
+}
+.show_tasks_button:hover{
+    color: #ffffff;
+    background-color: #c81f1f;
+}
+
+.add_tasks_button:hover{
+    
+        color: #ffffff;
+        background-color: #c81f1f;
+    
+}
+
+
+
